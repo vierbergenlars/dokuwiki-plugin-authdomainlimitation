@@ -34,6 +34,10 @@ class action_plugin_authdomainlimitation_signup extends DokuWiki_Action_Plugin {
 
     public function handle_auth_user_change(Doku_Event &$event, $param) {
     
+      if ( $event->data['type'] !== 'create' ) {
+        return true;
+      }
+      
       $domains = array_map(function($domain){
         return trim($domain);
       }, explode(';', $this->getConf('_domainWhiteList')));
