@@ -1,0 +1,7 @@
+base   authdomainlimitation
+author basteyyy
+email  sebastian@34n.de
+date   2015-01-20
+name   Authdomain Limitation Plugin
+desc   Provides a method to regulate the (email) domains with which users are allowed to register himself.
+url    https://www.dokuwiki.org/plugin:authdomainlimitation
