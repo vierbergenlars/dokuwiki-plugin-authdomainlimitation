@@ -10,3 +10,5 @@
 
 $meta['_domainWhiteList']    = array('string','_caution' => 'danger');
 $meta['_domainlistErrorMEssage']    = array('string');
+$meta['_emailRegex'] = array('string');
+$meta['checksAnd'] = array('onoff');
